@@ -1,0 +1,12 @@
+<model-viewer src="testview.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1.33" environment-image="4439566356_bf186aefe6_c.jpg" skybox-image="4439566356_bf186aefe6_c.jpg" shadow-softness="0.12">
+    <button class="Hotspot" slot="hotspot-2" data-position="0.022137176307953393m 0.007680388123001591m 0.11989813664437927m" data-normal="0.14981079911301448m 0.3454201193542795m 0.9264133341086986m" data-visibility-attribute="visible"></button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
